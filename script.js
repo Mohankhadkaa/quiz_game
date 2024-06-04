@@ -146,8 +146,8 @@ function endQuiz() {
     clearInterval(timer);
     const quizContainer = document.getElementById('quiz-container');
     quizContainer.innerHTML = `
-       <font color="yellow" face="verdana" font size="16"> <h2>Quiz Over!</h2>
-        <p>Your final score is ${score} out of ${questions.length}.</p></font>
+       <h2>Quiz Over!</h2>
+        <p>Your final score is ${score} out of ${questions.length}.</p>
     `;
 }
 
